@@ -71,7 +71,7 @@ function isValidUrl(urlString) {
 }
 
 // Create short URL
-app.post('/api/shorten', async (req, res) => {
+app.post('/api/v1/shorten', async (req, res) => {
     try {
         const { url } = req.body;
         
